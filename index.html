@@ -6,24 +6,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>banana speak</title>
-    <style>
-    #output{
-        border: 1px solid black;
-        height: 10vh;
-        width: 80%;
-        margin:1rem;
-        padding:1rem;
-    }
-    </style>
+    <link href="style.css" rel="stylesheet" />
 </head>
 
 <body>
-    <h1>talk banana</h1>
-    <textarea id="txt-input"
+    <h1 class="main-heading">talk banana</h1>
+    <br>
+    <textarea id="txt-input" class="text-area"
         placeholder="put your sentence in english here and we will convert it to banana."></textarea>
-    <button id="btn-translate">Translate</button>
-    <div>Output will come here 👇</div>
-    <div id="output"></div>
+    <br>
+    <br>
+    <button id="btn-translate" class="btn">
+        Translate
+    </button>
+    <br>
+    <br>
+    <div class="output-text">Output will come here 👇</div>
+    <div id="output" class="output-div"></div>
+    <img class="minion-speak" src="images/minionspeak.jpg"/>
     <script src="app.js" type="text/javascript"></script>
 </body>
 
